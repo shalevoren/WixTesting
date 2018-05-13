@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="wix test"
+parallel="tests" thread-count="1">
+
+<parameter name="propertiesFilePath" value="./wix.properties"></parameter>
+
+
+<tests name="This testing wix web site">
+
+<classes>
+
+<class name="Wix.WixTest" />
+</classes>
+
+</tests>
+
+
+</suite>
